@@ -88,19 +88,6 @@ h1 {
     margin-bottom: 3rem;
 }
 
-.btn {
-    border: none;
-    background-color: #eee;
-    color: #222;
-    font-size: 2rem;
-    padding: 2rem 3rem;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #ccc;
-}
-
 .message {
     margin-bottom: 8rem;
     height: 3rem;
@@ -108,4 +95,27 @@ h1 {
 
 .label-score {
     margin-bottom: 2rem;
+}
+
+.btn {
+    border: none;
+    background-color: #ae87db;
+    color: #222;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: #da3434;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(151, 48, 120, 0.3);
+}
+
+.btn:active {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
